@@ -12,9 +12,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.black,
-      body: Text(
-        "Anasayfa",
-        style: TextStyle(color: Colors.white),
+      body: Center(
+        child: Text(
+          "Anasayfa",
+          style: TextStyle(color: Colors.white, fontSize: 32.0),
+        ),
       ),
     );
   }
